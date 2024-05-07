@@ -1,0 +1,116 @@
+body {
+    color: black;
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 320px;
+    background: linear-gradient(to right, #9796f0, #fbc7d4);
+}
+
+.container {
+    border: 5px #9796f0a3 solid;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.573);
+}
+
+.header {
+    padding: 10px;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+
+
+.inputs {
+    padding: 5px;
+}
+
+.input {
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #4d4d7333;
+
+}
+
+.icon {
+    margin: 0px 5px;
+    margin-top: 5px;
+    margin-bottom: -5px;
+    height: 20px;
+    background-color: transparent;
+}
+
+.submit-container {
+    box-sizing: border-box;
+    margin-top: -2px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    background-color: transparent;
+
+}
+
+.submit {
+    border: transparent;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.forgot-password {
+    color: black;
+}
+
+.click_here:hover {
+    color: blue;
+}
+
+.others {
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.other_icons {
+    width: 27px;
+    padding: 2px;
+}
+
+.other_icons:hover {
+    border-width: 1px;
+    border: black .2px solid;
+    border-radius: 50%;
+    transition: border-color 0.25s;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 5px 13px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    border-color: #000000;
+}
+
+
+input {
+    margin: 5px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: transparent;
+
+}
